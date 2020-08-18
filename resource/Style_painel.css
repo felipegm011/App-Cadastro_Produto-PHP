@@ -1,0 +1,23 @@
+#form-container{
+	width: 80%;
+	height: 170px;
+	padding: 20px;
+	background-color:#DCDCDC		;
+	margin: 110px auto;
+	border-radius:10px;
+	
+}
+#but{
+    padding: 16px;
+	margin: 10px auto;
+}
+
+
+A:link {text-decoration:none;color:#ffffff;}
+A:visited {text-decoration:none;color:#ffffff;}
+A:active {text-decoration:none;color:#ffffff;}
+A:hover {text-decoration:underline;color:#ffffff;}
+
+h1{
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+#painel{
+	width: 25%;
+	height: 485px;
+	padding: 20px;
+	background-color:#DCDCDC;
+	margin: 100px auto;
+	border-radius:10px;
+	
+}
+
+h1{
+	color:#000000;
+}

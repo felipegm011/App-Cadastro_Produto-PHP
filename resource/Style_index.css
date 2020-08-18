@@ -1,0 +1,67 @@
+
+#form-container{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("var.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	display: flex; 				/* definição para a usar os recurso da dunção flex box*/
+	flex-direction: column;		/*infomando que o conteudo vai ser distribuido na forma de coluna*/
+	justify-content: center;	/* centralizando no eixo da coluna o conteudo*/
+	align-items: center;		/* informa que os itens vão ficar alinhadpos no centro*/
+}
+#form-box{
+	width: 300px; 				/* largura da div*/
+	padding: 20px; 				/* altura da div*/
+	box-sizing: border-box;		/* borda da div*/
+	background: rgba(0,0,0,0.3); /* aplicando transparencia escura*/
+}
+#form-box input{
+	font-size: large;
+}
+
+#form-box p{
+	color: white;
+}
+#form-box h1{
+	color: #ffffff;
+}
+#form-box a{
+	text-decoration: none;
+}
+a:hover {
+text-decoration: underline; color: red;
+}
+
+
+/* cadastro de usuário*/
+#painel{
+	width: 25%;
+	height: 425px;
+	padding: 20px;
+	background-color:Lavender;
+	color:DodgerBlue;
+	margin: 120px auto;
+	border-radius:10px;
+}
+#painel p{
+	color: black;
+}
+#container{
+	background-color:MintCream;
+}
+/* referente a pagina de formulario que não está sendo usada*/
+#carrega{
+	width: 95%;
+	height:50px;
+	color: #008000;
+	background-color: #00FF00;
+	margin: 35px auto;
+	text-align:center;
+	padding:4px;
+	border-radius:20px;
+	font-size: 27px;
+	
+	
+}
